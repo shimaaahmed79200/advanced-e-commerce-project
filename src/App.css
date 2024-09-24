@@ -365,10 +365,7 @@ button {
   transition: .3s;
 }
 
-/* .add-to-cart-btn:hover {
-  background-color: #f0c14b;
-  color: #333;
-} */
+
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
@@ -495,7 +492,7 @@ button {
 }
 
 .newsletter button:hover {
-  /* border-bottom: 1px solid #f4eade; */
+
   background-color: var(--main-color);
 }
 
@@ -686,29 +683,6 @@ form button:hover {
   width: 100%;
 }
 
-
-/*  */
-/* .cart-details {
-  position: fixed;
-  top: 40%;
-  right: 50%;
-  opacity: .7;
-  height: 70px;
-  width: 70px;
-  background-color: white;
-  border: 1px solid #ddd;
-  padding: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  z-index: 1000;
-  max-width: 400px;
-  overflow-y: auto;
-} */
-
-/* .cart-details table {
-  width: 100%;
-  border-collapse: collapse;
-} */
-
 .cart-details th, .cart-details td {
   border: 1px solid #ddd;
   padding: 10px;
@@ -748,7 +722,6 @@ form button:hover {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   transition: transform 0.3s ease-in-out;
 }
 

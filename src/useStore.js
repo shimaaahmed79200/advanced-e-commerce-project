@@ -43,12 +43,7 @@ export const useStore = create((set) => ({
   // Selected product and category state
   selectedProduct: null,
   setSelectedProduct: (product) => set({ selectedProduct: product }),
-  // fetchProductById: async () => {
-  //   const response = await fetch(`https://fakestoreapi.com/products/${id}`);
-  //   const product = await response.json();
-  //   set({ selectedProduct: product });
-  // },
-
+  
   selectedCategory: null, // To store the selected category
   setSelectedCategory: (category) => set({ selectedCategory: category }),
 
