@@ -80,11 +80,11 @@ const Shop = () => {
                 onClick={() => handleImageClick(product.id)}
               />
               <div
-                className="cart-button "
-                onClick={(e) => {
-                  e.stopPropagation();
-                  handleAddToCart(product);
-                }}
+                // className="cart-button "
+                // onClick={(e) => {
+                //   e.stopPropagation();
+                //   handleAddToCart(product);
+                // }}
               >
                 <button className="add-to-cart-btn" onClick={() => handleAddToCart(product)}>
                   Add to Cart
